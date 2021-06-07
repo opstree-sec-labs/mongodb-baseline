@@ -1,0 +1,13 @@
+name: Opstree mongodb-security
+title: Opstree MongoDB Security Checklist
+maintainer: Opstree 
+copyright: Chef Software, Inc.
+license: Apache 2.0
+summary: An InSpec Compliance Profile that checks many of the suggestions from the MongoDB Security Checklist.
+version: 0.1.0
+attributes:
+  - name: username
+    value: "useradmin"
+  - name: password
+    value: "passw0rd"
+  
